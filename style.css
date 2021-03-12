@@ -2,6 +2,7 @@ body {
     background-image: url("owls.jpeg");
     background-size: 40%;
     direction: rtl;
+    user-select: none;
 }
 
 .container {
@@ -9,7 +10,7 @@ body {
     margin: auto;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     text-align: center;
     position: relative;
     top: 120px;
@@ -21,7 +22,9 @@ body {
 
 #next {
     border: black 4px solid;
-    padding: 5px;
-    margin: 3px;
-    width: 60px;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    /*להוסיף רווח מלמטה, לעצב מחדש את הכפתור שיהיה יפה*/
 }
+

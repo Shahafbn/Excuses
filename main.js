@@ -11,5 +11,7 @@ function moreExcuse () {
     if (i == excuses.length) {
         i = 0;
     }
+
+    document.getElementById('next').innerText = "עוד תירוץ!";
 }
 
