@@ -14,8 +14,8 @@ body {
     text-align: center;
     position: relative;
     top: 120px;
-    width: 600px;
-    height: 300px;
+    max-width: 600px;
+    height: 50vh;
     background-color: #e2d7c7;
     border-radius: 15px;
 }
@@ -28,6 +28,8 @@ body {
     /*להוסיף רווח מלמטה, לעצב מחדש את הכפתור שיהיה יפה*/
 }
 
-@media screen and (max-width: 600px) {
-   /*קטע קוד שאני אתאים את האתר למסך טלפון*/
+@media screen and (max-width: 700px) {
+    body {
+        background-size: 70%;
+    }
 }
