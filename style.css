@@ -3,6 +3,7 @@ body {
     background-size: 40%;
     direction: rtl;
     user-select: none;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .container {
@@ -15,16 +16,23 @@ body {
     position: relative;
     top: 120px;
     max-width: 600px;
-    height: 50vh;
+    min-height: 50vh;
     background-color: #e2d7c7;
     border-radius: 15px;
+    overflow: auto;
 }
 
 #next {
-    border: black 4px solid;
+    background-color: #d3bb9a;
+  /*  border: #c0a17d 1px solid; */
+   /* border-radius: 10px; */
     padding: 10px;
-    margin: 10px;
+    margin: 17px;
     width: 100px;
+    color: #f0ebe6;
+    font-size: 1.06em;
+    box-shadow: 2px 2px 0px 0px #C0A17D;
+    
     /*להוסיף רווח מלמטה, לעצב מחדש את הכפתור שיהיה יפה*/
 }
 
